@@ -12,9 +12,9 @@ class Contact extends Component {
         <Fade bottom>
         <div className='contact-content'>
                 <h1>
-                Let’s create your next<br></br>
-                <span className='amazing-color'>experience together</span></h1>
-                    <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
+                I'm incredibly excited<br></br>
+              <span className='amazing-color'>to code for you</span></h1>
+                    // <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(
                         <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
