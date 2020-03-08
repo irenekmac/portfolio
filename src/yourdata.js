@@ -65,7 +65,8 @@ export default
         social: [
             // Add Or Remove The Link Accordingly
             {   name:'Github',
-                url:'https://github.com/irenekmac'},
+                url:'https://github.com/irenekmac'
+              },
             {
                 name: 'LinkedIn',
                 url: 'https://www.linkedin.com/irenekmac'

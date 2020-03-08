@@ -200,6 +200,34 @@ height: 30em;
   padding: 5%;
 }
 
+/* SOCIAL STUFF */
+.social-container {
+  /* background: #eee; */
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0px 2.5rem 0px 0px;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-15px);
+}
+
+a.github {
+  color: #000000;
+}
+
+a.linkedin {
+  color: #3076B0;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
 .footer{
   position: relative;
   top:2em;
