@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
+import { GitHubIcon, LinkedInIcon, TwitterIcon } from '@material-ui/icons';
 
 class Contact extends Component {
     state = {  }
     render() {
-        return (  <div className='contact-container'>
+        return (
+          <div className='contact-container'>
         <h1>
                 <Fade bottom cascade> Contact.</Fade>
         </h1>
@@ -17,11 +19,13 @@ class Contact extends Component {
                 </div>
                   <span className='amazing-color'>to code for you</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
-                <ul>
+                <div className='socials'>
+                  <ul>
                     {data.social.map((link,index)=>(
-                        <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
+                      <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
                     ))}
-                </ul>
+                  </ul>
+                </div>
         </div>
         </Fade>
 

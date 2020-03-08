@@ -62,6 +62,7 @@ export default
             }
                 */
         ],
+
         social: [
             // Add Or Remove The Link Accordingly
             {   name:'Github',

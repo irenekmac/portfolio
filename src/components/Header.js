@@ -7,7 +7,8 @@ class Header extends Component {
     state = {}
 
     render() {
-        return (<div>
+        return (
+          <div>
         <h1 className='heading-background'>INNOVATE</h1>
             <header>
                 <h1>
@@ -15,10 +16,11 @@ class Header extends Component {
             </header>
             <Fade bottom>
             <p className='header-title'>
-            {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
-            {data.headerTagline[2]}
-               <br></br>
-                    <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
+            <div>{data.headerTagline[0]}</div><div>{data.headerTagline[1]}</div><div>
+            {data.headerTagline[2]}</div>
+               <div>
+                 <button><a href={`https://drive.google.com/file/d/1ZBgNWPmapF8GC9XimWfvRr2ufr_CVmHX/view?usp=sharing`} target="_blank" rel="noopener noreferrer" >Resumé</a></button>
+               </div>
                 </p>
             </Fade>
 
