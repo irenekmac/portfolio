@@ -14,6 +14,23 @@ body{
   text-align: center;
 }
 
+.new-line {
+  display: inline;
+}
+
+.nav-bar {
+
+}
+
+ul {
+  display: flex;
+  margin: -4em;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+
 
 
 .App-header {
@@ -42,9 +59,10 @@ header{
 }
 header h1{
 font-size: 1em;
-font-weight: 400;  
+font-weight: 400;
 padding: 2em;
 margin-right: 50em;
+margin-top: -3em;
 }
 nav{
   position:fixed;
@@ -142,7 +160,7 @@ li .link:hover{
 }
 
 .project img{
-width: 30em;  
+width: 30em;
 height: 30em;
 }
 .contact{
@@ -194,7 +212,7 @@ height: 30em;
     font-size: 6px;
   }
   header h1{
-font-size: 5em;  
+font-size: 5em;
 padding: 1em;
 margin-right: 0em;
 }
@@ -238,7 +256,7 @@ nav{
   grid-gap: 5em;
 }
 .project img{
-width: 45em;  
+width: 45em;
 height: 45em;
 }
 
@@ -277,7 +295,7 @@ body{
     font-size: 10px;
   }
 header h1{
-font-size: 5em;  
+font-size: 5em;
 padding: 1em;
 margin-right: 0em;
 }
@@ -287,9 +305,9 @@ nav{
 }
 .header-title{
   font-size: 3.6em;
-  text-align: left;
-  top:1em;
-  left:1em;
+  text-align: initial;
+  top: 3em;
+  left: 1em;
 }
 .about{position: relative;
       display: flex;
@@ -318,7 +336,7 @@ nav{
   grid-gap: 5em;
 }
 .project img{
-width: 30em;  
+width: 30em;
 height: 30em;
 }
 
@@ -403,7 +421,7 @@ nav li{
   grid-template-columns: 1fr 1fr 1fr;
 }
 .project img{
-width: 32em;  
+width: 32em;
 height: 32em;
 }
 
@@ -430,5 +448,3 @@ height: 32em;
 
 
 }
-
-

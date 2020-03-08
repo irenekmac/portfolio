@@ -5,15 +5,17 @@ import data from '../yourdata';
 class Contact extends Component {
     state = {  }
     render() {
-        return (  <div>
+        return (  <div className='contact-container'>
         <h1>
                 <Fade bottom cascade> Contact.</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
                 <h1>
-                I'm incredibly excited<br></br>
-              <span className='amazing-color'>to code for you</span></h1>
+                I'm incredibly excited
+                <div ClassName='new-line'>
+                </div>
+                  <span className='amazing-color'>to code for you</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(

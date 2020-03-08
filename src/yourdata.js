@@ -14,30 +14,30 @@ export default
         contactEmail:'irenekaymac@gmail.com',
         // Add Your About Text Here
         abouttext: "As a child I’ve always had a passion for software & technology and I would spend hours reading about how everyday machines and software programs worked. After spending approximately 7 years specialising in administration and project management, I decided to follow my dream of building a career in tech and enrolled in the Software Engineering course at General Assembly Sydney.",
-        aboutImage:'https://res.cloudinary.com/dlbfbi0rp/image/upload/v1583140757/SEi35_IreneM_HeadshotBW_037_jjlzvx.jpg',
+        aboutImage:'http://www.fillmurray.com/g/400/500',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here
        projects:[
            {
             id: 1,//DO NOT CHANGE THIS (Please)😅
-            title:'Project One', //Project Title - Add Your Project Title Here
-             service:'UI/UX Design', // Add Your Service Type Here
+            title:'Hangry', //Project Title - Add Your Project Title Here
+             service:'Restaurant', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
              imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
              //Project URL - Add Your Project Url Here
-             url:'https://irenemac.com/'
+             url:'https://github.com/irenekmac/front-end-resto'
             },
             {
                 id: 2,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Two',
+                title: 'Vitrectomy',
                 service: 'Website Development',
                 imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                url: 'https://rails-heroku-vitrectomyhire.herokuapp.com/'
             },
             {
                 id: 3,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Three',
+                title: 'Tic-Tac-Toe',
                 service: 'Web App',
                 imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
                 url: 'http://chetanverma.com/'

@@ -5,13 +5,14 @@ class Navbar extends Component {
     scrollToTop = () => {
         scroll.scrollToTop();
     };
-    render() { 
-        return (<nav>
+    render() {
+        return (<div className='nav-bar'>
+          <nav>
             <ul>
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="homw"
+                    to="home"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -46,8 +47,9 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
             </ul>
-        </nav> );
+        </nav>
+      </div>);
     }
 }
- 
+
 export default Navbar;
