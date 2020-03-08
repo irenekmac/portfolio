@@ -11,8 +11,12 @@ export default
     ],
         //Contact Email
         contactEmail:'irenekaymac@gmail.com',
-        // Add Your About Text Here
-        abouttext: "As a child I’ve always had a passion for software & technology and I would spend hours reading about how everyday machines and software programs worked. After spending approximately 7 years specialising in administration and project management, I decided to follow my dream of building a career in tech and enrolled in the Software Engineering course at General Assembly Sydney.",
+        // Add About Text Here
+        abouttext: ["As a child I\’ve always had a passion for software & technology. After 7 years specialising in administration and project management, I decided to follow my dream of building a career in tech.",
+        //Second Paragraph
+        "I am excited to use my newly developed skills and join a passionate team. My strong interpersonal skills have been a defining feature in empowering others around me and accomplish team goals."],
+        currentTechStack: ['JavaScript', 'Rails', 'React', 'jQuery'],
+        futureTechStack: ['Node', 'Python', 'TypeScript', 'AWS'],
         aboutImage:'http://www.fillmurray.com/g/400/500',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
