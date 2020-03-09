@@ -21,7 +21,7 @@ export default function SocialFollow() {
       >
         <FontAwesomeIcon icon={faLinkedin} size="3x" />
       </a>
-      <a href="https://www.twitter.com/irenemac4" target='_blank' rel="noopener noreferrer" className="twitter social">
+      <a href="https://www.twitter.com/irenemac14" target='_blank' rel="noopener noreferrer" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="3x" />
       </a>
 

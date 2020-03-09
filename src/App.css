@@ -9,7 +9,6 @@ body{
   z-index: 1;
 }
 
-
 .App {
   text-align: center;
 }
@@ -23,15 +22,13 @@ body{
 }
 
 ul {
-  display: flex;
-  margin: -4em;
+  display: inline-block;
+  margin: -4% 0;
 }
 
 a.link:hover {
   text-decoration: underline;
 }
-
-
 
 .App-header {
   position: relative;
@@ -42,6 +39,7 @@ a.link:hover {
   color: black;
   top:4em;
 }
+
 .heading-background{
   position: fixed;
   opacity: 0.05;
@@ -131,12 +129,15 @@ li .link:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  padding-bottom: 0.3em;
 }
 .about-content p{
   font-size: 1.3em;
   text-align: left;
   width: 37em;
+  padding-bottom: 1.3em;
 }
+
 .about img{
   margin-left: 5em;
 }
@@ -203,7 +204,7 @@ height: 30em;
 /* SOCIAL STUFF */
 .social-container {
   /* background: #eee; */
-  padding: 25px 50px;
+  padding: 0.5em;
 }
 
 a.social {
@@ -242,81 +243,101 @@ a.twitter {
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
 
+  .App-header {
+    position: relative;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    top:4em;
+  }
+
   body{
     font-size: 6px;
   }
   header h1{
-font-size: 5em;
-padding: 1em;
-margin-right: 0em;
-}
+    font-size: 5em;
+    padding: 1em;
+    margin-right: 0em;
+  }
 
-.heading-background{
-  display: none;
-}
-nav{
-  display: none;
-}
-.header-title{
-  font-size: 3em;
-  text-align: left;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-30em;
-}
-.about img{
-  display: none
-}
-.about-content{
-  left:2em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 300px;
-}
+  .heading-background{
+    display: none;
+  }
 
-.work{
-  left:2em;
-  top:2em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5em;
-}
-.project img{
-width: 45em;
-height: 45em;
-}
+  nav{
+    display: none;
+  }
 
-.contact{
-  top:15em;
-  left:2em;
-}
-.contact h1{
-  font-size: 4em;
-}
-.contact .email{
-  font-size: 3.5em;
-}
+  .header-title{
+    font-size: 3em;
+    text-align: left;
+    top:1em;
+    left:1em;
+  }
+  .about{
+    position: relative;
+    display: flex;
+    top:-30em;
+  }
+  .about p{
+    padding-bottom: 1.3em;
+  }
+  .about img{
+    display: none
+  }
+  .about-content{
+    left:2em;
+  }
+  .about-content p{
+    font-size: 3.5em;
+    text-align: left;
+    width: 300px;
+  }
 
-.contact li{
-  display: block;
-  padding: 2em;
-}
-.contact li a{
-  font-size: 2.5em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 2em;
-}
+  .work{
+    left:2em;
+    top:2em;
+    align-items: flex-start;
+  }
+  .work .work-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5em;
+  }
+  .project img{
+    width: 45em;
+    height: 45em;
+  }
+
+  .contact{
+    top:15em;
+    left:2em;
+  }
+
+  .contact h1{
+    font-size: 4em;
+  }
+
+  .contact .email{
+    font-size: 3.5em;
+  }
+
+  .contact li{
+    display: block;
+    padding: 2em;
+  }
+
+  .contact li a{
+    font-size: 2.5em;
+  }
+
+  .footer{
+    top:4em;
+    padding: 1em;
+    font-size: 2em;
+  }
 
 
 }
