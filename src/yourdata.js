@@ -29,7 +29,7 @@ export default
             // General Info
             projectInfo: 'rando resto',
             // Tech Stack used
-            techStack:'Backend: Ruby on Rails & Frontend: React',
+            techStack:'Ruby on Rails & React',
             //Project Image - Add Your Project Image Here
              imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
              //Project URL - Add Your Project Url Here
@@ -40,7 +40,7 @@ export default
                 title: 'Vitrectomy',
                 service: 'Website Development',
                 projectInfo: 'e-commerce website',
-                techStack:'Backend: Ruby on Rails & Frontend: React',
+                techStack:'Ruby on Rails',
                 imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
                 url: 'https://rails-heroku-vitrectomyhire.herokuapp.com/'
             },
@@ -49,7 +49,7 @@ export default
                 title: 'Tic-Tac-Toe',
                 service: 'Web App',
                 projectInfo: 'game app',
-                techStack:'Backend: Ruby on Rails & Frontend: React',
+                techStack:'JavaScript, HTML, CSS, jQuery',
                 imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
                 url: 'http://chetanverma.com/'
             },
@@ -58,7 +58,7 @@ export default
                 title: 'Project Four',
                 service: 'Branding',
                 projectInfo: 'rando resto',
-                techStack:'Backend: Ruby on Rails & Frontend: React',
+                techStack:'Ruby on Rails & React',
                 imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
                 url: 'http://chetanverma.com/'
            }
