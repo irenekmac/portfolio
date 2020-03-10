@@ -5,10 +5,12 @@ import data from '../yourdata';
 
 class Work extends Component {
     state = {  }
-    render() { 
-        return (<div>
+    render() {
+        return (
+          <div>
         <h1 className='heading'>
         <Fade bottom cascade>Work.</Fade></h1>
+
         <div className='work-content'>
                 {data.projects.map((project)=>(
                     <Project key={project.id}
@@ -22,5 +24,5 @@ class Work extends Component {
         </div>  );
     }
 }
- 
+
 export default Work;
