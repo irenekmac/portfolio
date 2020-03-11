@@ -23,9 +23,6 @@ body{
   position: relative;
   display: flex;
   flex-direction: column;
-  /* width: 300px;
-  height: 300px;
-  margin: 10px; */
   box-sizing: border-box;
   align-items: flex-start;
 }
