@@ -9,23 +9,25 @@ class Project extends Component {
         <div className='project'>
           <a href={this.props.url}>
           </a>
-            <div className='container'>
               <div className='box'>
                 <div className='imgBox'>
                   <img src={this.props.imageSrc} alt={this.props.title}></img>
                 </div>
                 <div className='details'>
-                  <h2>nvm</h2>
-                  <p>yih</p>
+                  <div className='content'>
+                    <h2>Tech Stack</h2>
+                    <p>{this.props.techStack}</p>
+                    <h3>Live Site</h3>
+                    <p>{this.props.url}</p>
+                    <h3>Code</h3>
+                    <p>{this.props.code}</p>
+
+                  </div>
                 </div>
               </div>
-            </div>
         </div>
           <h1>{this.props.title}</h1>
           <span>{this.props.service}</span>
-          <div>
-            <span>{this.props.techStack}</span>
-          </div>
             </Fade>);
     }
 }

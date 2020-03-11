@@ -33,7 +33,8 @@ export default
             //Project Image - Add Your Project Image Here
              imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
              //Project URL - Add Your Project Url Here
-             url:'https://github.com/irenekmac/front-end-resto'
+             url:'https://github.com/irenekmac/front-end-resto',
+             code:''
             },
             {
                 id: 2,//DO NOT CHANGE THIS
@@ -42,7 +43,8 @@ export default
                 projectInfo: 'e-commerce website',
                 techStack:'Ruby on Rails',
                 imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'https://rails-heroku-vitrectomyhire.herokuapp.com/'
+                url: 'https://rails-heroku-vitrectomyhire.herokuapp.com/',
+                code:''
             },
             {
                 id: 3,//DO NOT CHANGE THIS
@@ -51,7 +53,8 @@ export default
                 projectInfo: 'game app',
                 techStack:'JavaScript, HTML, CSS, jQuery',
                 imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                url: '',
+                code:''
             },
             {
                 id: 4,//DO NOT CHANGE THIS
@@ -60,7 +63,8 @@ export default
                 projectInfo: 'rando resto',
                 techStack:'Ruby on Rails & React',
                 imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                url: '',
+                code:''
            }
 
                     /*
