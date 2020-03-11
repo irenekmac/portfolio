@@ -17,7 +17,7 @@ export default
         "I am excited to use my newly developed skills and join a passionate team. My strong interpersonal skills have been a defining feature in empowering others around me and accomplish team goals."],
         currentTechStack: ['JavaScript Rails, React, jQuery, HTML, CSS '],
         futureTechStack: ['Node, Python, TypeScript, AWS, C#, SASS'],
-        aboutImage:'',
+        aboutImage:'https://res.cloudinary.com/dlbfbi0rp/image/upload/c_crop,r_0,w_3665/v1583936135/SEi35_IreneM_HeadshotBW_037_jjlzvx.jpg',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here

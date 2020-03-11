@@ -9,6 +9,11 @@ body{
   z-index: 1;
 }
 
+.about img {
+  max-height: 26em;
+  max-width: 32em;
+}
+
 /* .container {
   width: 1200px;
   min-height: 500px;
