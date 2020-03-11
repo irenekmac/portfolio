@@ -7,23 +7,25 @@ class Project extends Component {
         return (
         <Fade bottom>
         <div className='project'>
-        <a href={this.props.url}>
-          <div className='container'>
-            <div className='box'>
-                <img src={this.props.imageSrc} alt={this.props.title}></img>
+          <a href={this.props.url}>
+          </a>
+            <div className='container'>
+              <div className='box'>
+                <div className='imgBox'>
+                  <img src={this.props.imageSrc} alt={this.props.title}></img>
+                </div>
+                <div className='details'>
+                  <h2>nvm</h2>
+                  <p>yih</p>
+                </div>
               </div>
-              <div className='details'>
-                <h2><span>{this.props.techStack}</span></h2>
-                <p>yih</p>
-              </div>
-                </a>
-                <h1>{this.props.title}</h1>
-                <span>{this.props.service}</span>
-                <div>
-                  <span>{this.props.techStack}</span>
-              </div>
-          </div>
+            </div>
         </div>
+          <h1>{this.props.title}</h1>
+          <span>{this.props.service}</span>
+          <div>
+            <span>{this.props.techStack}</span>
+          </div>
             </Fade>);
     }
 }
