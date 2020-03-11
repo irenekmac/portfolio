@@ -373,7 +373,7 @@ a.twitter {
   }
 
   .contact{
-    top:15em;
+    top:-15em;
     left:2em;
     margin: 11vw;
   }
