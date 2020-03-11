@@ -338,7 +338,7 @@ a.twitter {
   .about{
     position: relative;
     display: flex;
-    top:-30em;
+    top:-29em;
     margin: 19px;
   }
   .about p{
@@ -358,7 +358,7 @@ a.twitter {
 
   .work{
     left:2em;
-    top:2em;
+    top:-24em;
     align-items: flex-start;
     margin: 11vw;
   }
