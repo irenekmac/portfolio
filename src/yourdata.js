@@ -24,48 +24,52 @@ export default
        projects:[
            {
             id: 1,//DO NOT CHANGE THIS
-            title:'Hangry', //Project Title - Add Your Project Title Here
-            service:'Restaurant', // Add Your Service Type Here
+            title:'Vitrectomy', //Project Title - Add Your Project Title Here
+            service:'Website Development', // Add Your Service Type Here
             // General Info
-            projectInfo: 'rando resto',
+            projectInfo: 'e-commerce website',
             // Tech Stack used
-            techStack:'Ruby on Rails & React',
+            techStack:'Ruby on Rails',
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+             imageSrc:"https://res.cloudinary.com/dlbfbi0rp/image/upload/c_limit,h_535,q_100,w_485/v1584265583/Screen_Shot_2020-03-15_at_8.45.36_pm_slyysd.png",
              //Project URL - Add Your Project Url Here
-             url:'https://github.com/irenekmac/front-end-resto',
+             url:'https://rails-heroku-vitrectomyhire.herokuapp.com/',
              code:''
             },
             {
                 id: 2,//DO NOT CHANGE THIS
-                title: 'Vitrectomy',
-                service: 'Website Development',
-                projectInfo: 'e-commerce website',
-                techStack:'Ruby on Rails',
-                imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'https://rails-heroku-vitrectomyhire.herokuapp.com/',
-                code:''
-            },
-            {
-                id: 3,//DO NOT CHANGE THIS
                 title: 'Tic-Tac-Toe',
                 service: 'Web App',
                 projectInfo: 'game app',
                 techStack:'JavaScript, HTML, CSS, jQuery',
-                imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+                imageSrc: "https://res.cloudinary.com/dlbfbi0rp/image/upload/v1584501813/Screen_Shot_2020-03-18_at_2.22.16_pm_jobxlv.png",
                 url: '',
                 code:''
             },
             {
-                id: 4,//DO NOT CHANGE THIS
-                title: 'Project Four',
-                service: 'Branding',
+                id: 3,//DO NOT CHANGE THIS
+                title: 'Hangry',
+                service: 'Restaurant web app',
                 projectInfo: 'rando resto',
                 techStack:'Ruby on Rails & React',
-                imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: '',
+                imageSrc: "https://res.cloudinary.com/dlbfbi0rp/image/upload/v1584501813/Screen_Shot_2020-03-18_at_2.22.16_pm_jobxlv.png",
+                url: 'https://github.com/irenekmac/front-end-resto',
                 code:''
-           }
+            }
+           //  {
+           //      id: 4,//DO NOT CHANGE THIS
+           //      title:'Hangry', //Project Title - Add Your Project Title Here
+           //      service:'Restaurant', // Add Your Service Type Here
+           //      // General Info
+           //      projectInfo: 'rando resto',
+           //      // Tech Stack used
+           //      techStack:'Ruby on Rails & React',
+           //      //Project Image - Add Your Project Image Here
+           //       imageSrc:"https://irenekmac.github.io/front-end-resto/",
+           //       //Project URL - Add Your Project Url Here
+           //       url:'https://github.com/irenekmac/front-end-resto',
+           //       code:''
+           // }
 
                     /*
 
