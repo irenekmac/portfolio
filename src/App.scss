@@ -65,6 +65,20 @@ body{
   margin: 1em 1em 1em 2em;
 }
 
+.svg-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  svg {
+    flex: 1;
+    min-width: 120px;
+    margin: 20px 20px 0 0;
+    max-width: 120px;
+    max-height: 70px;
+  }
+}
+
 .App {
   text-align: center;
 }
