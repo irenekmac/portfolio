@@ -19,7 +19,7 @@ class Header extends Component {
             <div>{data.headerTagline[0]}</div><div>{data.headerTagline[1]}</div><div>
             {data.headerTagline[2]}</div>
                <div>
-                 <button><a href={`https://drive.google.com/file/d/1ZBgNWPmapF8GC9XimWfvRr2ufr_CVmHX/view?usp=sharing`} target="_blank" rel="noopener noreferrer" >Check out my Resumé!</a></button>
+                 <button><a href={`https://drive.google.com/file/d/1DOgSl9fVdnKUStOF_kr-99U-CSPynpZu/view?usp=sharing`} target="_blank" rel="noopener noreferrer" >Check out my Resumé!</a></button>
                </div>
                 </p>
             </Fade>
