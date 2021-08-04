@@ -43,7 +43,7 @@ export default
                 projectInfo: 'game app',
                 techStack:'JavaScript, HTML, CSS, jQuery',
                 imageSrc: "https://res.cloudinary.com/dlbfbi0rp/image/upload/v1584501813/Screen_Shot_2020-03-18_at_2.22.16_pm_jobxlv.png",
-                url: '',
+                url: 'https://irenekmac.github.io/tic-tac-toe/',
                 code:''
             },
             {

@@ -14,13 +14,13 @@ class Contact extends Component {
         <Fade bottom>
         <div className='contact-content'>
                 <h1>
-                I'm incredibly excited
+                Here's to new
                 <div ClassName='new-line'>
                 </div>
-                  <span className='amazing-color'>to code for you</span></h1>
+                  <span className='amazing-color'>opportunities!</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <div className='socials'>
-                
+
 
                   <ul>
                     <SocialFollow />
