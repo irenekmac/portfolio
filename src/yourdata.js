@@ -34,7 +34,7 @@ export default
              imageSrc:"https://res.cloudinary.com/dlbfbi0rp/image/upload/c_limit,h_535,q_100,w_485/v1584265583/Screen_Shot_2020-03-15_at_8.45.36_pm_slyysd.png",
              //Project URL - Add Your Project Url Here
              url:'https://rails-heroku-vitrectomyhire.herokuapp.com/',
-             code:''
+             code:'https://github.com/irenekmac/Vitrectomy-Hire-Project'
             },
             {
                 id: 2,//DO NOT CHANGE THIS
@@ -44,7 +44,7 @@ export default
                 techStack:'JavaScript, HTML, CSS, jQuery',
                 imageSrc: "https://res.cloudinary.com/dlbfbi0rp/image/upload/v1584501813/Screen_Shot_2020-03-18_at_2.22.16_pm_jobxlv.png",
                 url: 'https://irenekmac.github.io/tic-tac-toe/',
-                code:''
+                code:'https://github.com/irenekmac/tic-tac-toe'
             },
             {
                 id: 3,//DO NOT CHANGE THIS
@@ -53,8 +53,8 @@ export default
                 projectInfo: 'rando resto',
                 techStack:'Ruby on Rails & React',
                 imageSrc: "https://res.cloudinary.com/dlbfbi0rp/image/upload/v1584711463/Screen_Shot_2020-03-21_at_12.35.07_am_poo9st.png",
-                url: '"https://irenekmac.github.io/front-end-resto/',
-                code:''
+                url: 'https://irenekmac.github.io/front-end-resto/',
+                code:'https://github.com/irenekmac/hangry'
             }
            //  {
            //      id: 4,//DO NOT CHANGE THIS
